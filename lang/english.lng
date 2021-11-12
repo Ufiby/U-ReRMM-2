@@ -1,0 +1,251 @@
+##grflangid 0x01
+STR_GRF_NAME				:U&ReRMM 2 1.4
+STR_GRF_DESCRIPTION			:New railway railways (from slowest to fastest), metro line, narrow-gauge line, monorail and maglev with new graphics:{}{YELLOW}U&ReRMM 2{}{}{BLACK}Requires version {SILVER}1.10.0 {BLACK}or later{}{}©2020 Yuri Gashin{}Draw or coded by {LTBLUE}Ufiby™{}{BLACK}License: {SILVER}CC-BY-NC-SA 3.0{}
+STR_GRF_URL				    :https://www.tt-forums.net/viewtopic.php?f=67&t=84591
+
+STR_GRF_NAME_MINI			:U&ReRMM 2: Mini
+STR_GRF_DESCRIPTION_MINI	:These sets belong to {YELLOW}U&Rermm2{BLACK}. All railway tracks are kept to a minimum and remove all speed limits to simplify the gameplay. Second-hand (standardized rail-type scheme) railway sets are still compatible.{}{}{BLACK}Requires version {SILVER}1.10.0 {BLACK}or later{}{}©2020 Yuri Gashin{}Draw or coded by {LTBLUE}Ufiby™{}{BLACK}License: {SILVER}CC-BY-NC-SA 3.0{}
+STR_ERROR_URERMM2			:{ORANGE}Incompatibility {YELLOW}U&ReRMM2
+STR_ERROR_URERMM			:{ORANGE}Incompatibility {YELLOW}U&ReRMM
+
+STR_OPENTTD_VERSION								:1.10.0
+STR_PARAM_GUI_NAME		           	        	:OpenGFX GUI
+STR_PARAM_GUI_DESC             		    	    :Displays the corresponding graphic icons and cursors in the OpenGFX style.
+
+STR_PARAM_FENCES_NAME							:Fences
+STR_PARAM_FENCES_DESC							:Replaces or deactivates the default fences for railrailways.
+STR_PARAM_FENCES_NONE							:None
+STR_PARAM_FENCES_0								:Original
+STR_PARAM_FENCES_1								:Only for all urban, veryhighspeed, monorail and maglev
+STR_PARAM_FENCES_1_MINI							:Only for all urban, monorail and maglev
+STR_PARAM_FENCES_2								:All railtypes
+STR_PARAM_FENCES_3								:All railtypes with color company
+
+STR_PARAM_3RD_NAME								:Allow other train on metro railways
+STR_PARAM_3RD_DESC								:Select what other train types (by railtype) to allow on metro railways. Trains will only be powered if a compatible power source is available on the metro railway of choice. This feature only works correctly for default and supported railway sets.
+STR_PARAM_3RD_NONE								:Off (Default)
+STR_PARAM_3RD_0									:Unelectrified rail only
+STR_PARAM_3RD_1									:Electrified rail only
+STR_PARAM_3RD_2									:Both options
+
+STR_PARAM_DUAL_GAUGE_NAME						:Enable dual gauge track
+STR_PARAM_DUAL_GAUGE_DESC						:Select this option to enable dual gauge (normal+narrow-gauge) track. This function only works correctly for narrow-gauge and supported railway sets
+STR_PARAM_DUAL_GAUGE_0							:Off
+STR_PARAM_DUAL_GAUGE_1							:Only old dual gauge track
+STR_PARAM_DUAL_GAUGE_2							:Only new gauge track
+STR_PARAM_DUAL_GAUGE_3							:All available
+
+STR_PARAM_DUAL_GAUGE_1_MINI						:Non-electrified dual gauge track
+STR_PARAM_DUAL_GAUGE_2_MINI						:Electrified dual gauge track
+
+STR_PARAM_TUNNEL_NAME							:Custom tunnel
+STR_PARAM_TUNNEL_DESC							:if this option is disabled, the default graphics for tunnel portals will be used with the original.
+
+STR_PARAM_BUILD_NAME							:Construction costs
+STR_PARAM_BUILD_DESC							:For players who want to choose the economy of construction: easy, normal or hard or very hard.
+STR_PARAM_BUILD_EASY							:Easy
+STR_PARAM_BUILD_NORMAL							:Normal
+STR_PARAM_BUILD_HARD							:Hard
+STR_PARAM_BUILD_VERY_HARD						:Very hard
+
+STR_PARAM_MAINTENANCE_NAME						:Maintenance costs
+STR_PARAM_MAINTENANCE_DESC						:For players who want to choose the economy of maintenance: easy, normal or hard or very hard.
+STR_PARAM_MAINTENANCE_EASY						:Easy
+STR_PARAM_MAINTENANCE_NORMAL					:Normal
+STR_PARAM_MAINTENANCE_HARD						:Hard
+STR_PARAM_MAINTENANCE_VERY_HARD					:Very hard
+
+STR_PARAM_SPEED_1_NAME							:Speed limit on branch line (km/h)
+STR_PARAM_SPEED_2_NAME							:Speed limit on main line (km/h)
+STR_PARAM_SPEED_3_NAME							:Speed limit on modern main line (km/h)
+STR_PARAM_SPEED_4_NAME							:Speed limit on high-speed line (km/h)
+STR_PARAM_SPEED_5_NAME							:Speed limit on modern high-speed line (km/h) 
+STR_PARAM_SPEED_6_NAME							:Speed limit on very high-speed line (km/h) 
+STR_PARAM_SPEED_7_NAME							:Speed limit on urban main line (km/h) 
+STR_PARAM_SPEED_8_NAME							:Speed limit on metro line (km/h) 
+STR_PARAM_SPEED_9_NAME							:Speed limit on modern metro line (km/h)
+STR_PARAM_SPEED_10_NAME							:Speed limit on urban metro line (km/h)
+STR_PARAM_SPEED_11_NAME							:Speed limit on dual gauge line #1 (km/h)
+STR_PARAM_SPEED_12_NAME							:Speed limit on dual gauge line #2 (km/h)
+STR_PARAM_SPEED_13_NAME							:Speed limit on narrow-gauge line (km/h)
+STR_PARAM_SPEED_14_NAME							:Speed limit on modern narrow-gauge line (km/h) 
+STR_PARAM_SPEED_15_NAME							:Speed limit on accelerated narrow-gauge line (km/h)
+STR_PARAM_SPEED_16_NAME							:Speed limit on high-speed narrow-gauge line (km/h)
+STR_PARAM_SPEED_17_NAME							:Speed limit on urban narrow-gauge line (km/h)
+STR_PARAM_SPEED_18_NAME							:Speed limit on narrow-gauge line (3rd rail powered) (km/h)
+STR_PARAM_SPEED_19_NAME							:Speed limit on modern narrow-gauge line (3rd rail powered) (km/h)
+
+STR_PARAM_SPEED_1_DESC							:Min - 30 km/h. Max - 600 km/h. Affects the cost of construction and maintenance
+STR_PARAM_SPEED_2_DESC							:Min - 30 km/h. Max - 600 km/h. Affects the cost of construction and maintenance, including with a electrified
+STR_PARAM_SPEED_8_DESC							:Min - 30 km/h. Max - 600 km/h. Affects the cost of construction and maintenance, including with a electrified. This function only works correctly for standard, metro, and supported railway sets 
+STR_PARAM_SPEED_11_DESC							:Min - 30 km/h. Max - 600 km/h. Affects the cost of construction and maintenance. This function only works correctly for narrow-gauge and supported railway sets
+STR_PARAM_SPEED_12_DESC							:Min - 30 km/h. Max - 600 km/h. Affects the cost of construction and maintenance, including with a electrified. This function only works correctly for narrow-gauge and supported railway sets
+STR_PARAM_SPEED_13_DESC							:Min - 30 km/h. Max - 255 km/h. Affects the cost of construction and maintenance, including with a electrified. This function only works correctly for narrow-gauge and supported railway sets
+STR_PARAM_SPEED_18_DESC							:Min - 30 km/h. Max - 255 km/h. Affects the cost of construction and maintenance. This function only works correctly for narrow-gauge and supported railway sets
+
+STR_PARAM_URBAN_RAIL_NAME						:All urban rail tracks
+STR_PARAM_URBAN_RAIL_DESC						:Enable all urban rail tracks
+
+STR_BUILD_CAPTION_RAIL							:New railway vehicles
+STR_AUTOREPLACE_RAIL							:Railway vehicles
+STR_NEW_ENGINE_RAIL								:Railway vehicle
+
+STR_BUILD_CAPTION_ELRL							:New electrified railway vehicles
+STR_AUTOREPLACE_ELRL							:Electrified railway vehicles
+STR_NEW_ENGINE_ELRL								:Electrified railway vehicle
+
+STR_BUILD_CAPTION_3RDR							:New metro rail vehicles
+STR_AUTOREPLACE_3RDR							:Metro railway vehicles
+STR_NEW_ENGINE_3RDR								:Metro railway vehicle
+
+STR_BUILD_CAPTION_dAAN							:Dual gauge railway vehicles
+STR_AUTOREPLACE_dAAN							:Dual gauge railway vehicles
+STR_NEW_ENGINE_dAAN								:Dual gauge railway vehicle
+
+STR_BUILD_CAPTION_NGRL							:New narrow-gauge railway vehicles
+STR_AUTOREPLACE_NGRL							:Narrow-gauge railway vehicles
+STR_NEW_ENGINE_NGRL								:Narrow-gauge railway vehicle
+
+STR_BUILD_CAPTION_ELNG							:New electrified narrow-gauge railway vehicles
+STR_AUTOREPLACE_ELNG							:Electrified narrow-gauge railway vehicles
+STR_NEW_ENGINE_ELNG								:Electrified narrow-gauge railway vehicle
+
+STR_BUILD_CAPTION_NAA3							:New 3rd-rail-powered narrow-gauge railway vehicles
+STR_AUTOREPLACE_NAA3							:3rd-rail-powered narrow-gauge railway vehicles
+STR_NEW_ENGINE_NAA3								:3rd-rail-powered narrow-gauge railway vehicle
+
+STR_NAME_ELRL_MINI								:Branch line {LTBLUE}(electrified)
+STR_TOOLBAR_ELRL_MINI							:Branch line {LTBLUE}(electrified)
+STR_MENU_ELRL_MINI								:Branch line construction {LTBLUE}(electrified)
+
+STR_NAME_SAAN									:Branch line
+STR_TOOLBAR_SAAN								:Branch line {WHITE}
+STR_MENU_SAAN									:Branch line construction {WHITE}
+
+STR_NAME_SBAN									:Main line
+STR_TOOLBAR_SBAN								:Main line {WHITE}
+STR_MENU_SBAN									:Main line construction {WHITE}
+
+STR_NAME_SBAE									:Main line {LTBLUE}(electrified)
+STR_TOOLBAR_SBAE								:Main line {LTBLUE}(electrified) {WHITE}
+STR_MENU_SBAE									:Main line construction {LTBLUE}(electrified) {WHITE}
+
+STR_NAME_SCAN									:Modern main line
+STR_TOOLBAR_SCAN								:Modern main line {WHITE}
+STR_MENU_SCAN									:Modern main line construction {WHITE}
+
+STR_NAME_SCAE									:Modern main line {LTBLUE}(electrified)
+STR_TOOLBAR_SCAE								:Modern main line {LTBLUE}(electrified) {WHITE}
+STR_MENU_SCAE									:Modern main line construction {LTBLUE}(electrified) {WHITE}
+
+STR_NAME_SDAN									:High-speed line
+STR_TOOLBAR_SDAN								:High-speed line {WHITE}
+STR_MENU_SDAN									:High-speed line construction {WHITE}
+
+STR_NAME_SDAE									:High-speed line {LTBLUE}(electrified)
+STR_TOOLBAR_SDAE								:High-speed line {LTBLUE}(electrified) {WHITE}
+STR_MENU_SDAE									:High-speed line construction {LTBLUE}(electrified) {WHITE}
+
+STR_NAME_SEAE									:Modern high-speed line {LTBLUE}(electrified)
+STR_TOOLBAR_SEAE								:Modern high-speed line {LTBLUE}(electrified)
+STR_MENU_SEAE									:Modern high-speed line construction {LTBLUE}(electrified) {WHITE}
+
+STR_NAME_SFAE									:Very high-speed line {LTBLUE}(electrified)
+STR_TOOLBAR_SFAE								:Very high-speed line {LTBLUE}(electrified) {WHITE}
+STR_MENU_SFAE									:Very high-speed line construction {LTBLUE}(electrified) {WHITE}
+
+STR_NAME_SUAE									:Urban main line {LTBLUE}(electrified)
+STR_TOOLBAR_SUAE								:Urban main line {LTBLUE}(electrified) {WHITE}
+STR_MENU_SUAE									:Urban main line construction {LTBLUE}(electrified) {WHITE}
+
+STR_NAME_SAA3									:Metro line {GREEN}(3rd rail powered)
+STR_TOOLBAR_SAA3								:Metro line {GREEN}(3rd rail powered) {WHITE}
+STR_MENU_SAA3									:Metro line construction {GREEN}(3rd rail powered) {WHITE}
+
+STR_NAME_SBA3									:Modern metro line {GREEN}(3rd rail powered)
+STR_TOOLBAR_SBA3								:Modern metro line {GREEN}(3rd rail powered) {WHITE}
+STR_MENU_SBA3									:Modern metro line construction {GREEN}(3rd rail powered) {WHITE}
+
+STR_NAME_SUA3									:Urban metro line {GREEN}(3rd rail powered)
+STR_TOOLBAR_SUA3								:Urban metro line {GREEN}(3rd rail powered) {WHITE}
+STR_MENU_SUA3									:Urban metro line construction {GREEN}(3rd rail powered) {WHITE}
+
+STR_NAME_SAAZ									:Metro line {GREEN}(dual powered {LTBLUE}electrified)
+STR_TOOLBAR_SAAZ								:Metro line {GREEN}(Dual powered {LTBLUE}electrified) {WHITE}
+STR_MENU_SAAZ									:Metro line construction {GREEN}(dual powered {LTBLUE}electrified) {WHITE}
+
+STR_NAME_SBAZ									:Modern metro line {GREEN}(dual powered {LTBLUE}electrified)
+STR_TOOLBAR_SBAZ								:Modern metro line {GREEN}(Dual powered {LTBLUE}electrified) {WHITE}
+STR_MENU_SBAZ									:Modern metro line construction {GREEN}(dual powered {LTBLUE}electrified) {WHITE}
+
+STR_NAME_SUAZ									:Urban metro line {GREEN}(dual powered {LTBLUE}electrified)
+STR_TOOLBAR_SUAZ								:Urban metro line {GREEN}(Dual powered {LTBLUE}electrified) {WHITE}
+STR_MENU_SUAZ									:Urban metro line construction {GREEN}(dual powered {LTBLUE}electrified) {WHITE}
+
+STR_NAME_dAAN									:Dual gauge (normal+narrow-gauge) line #1
+STR_TOOLBAR_dAAN								:Dual gauge (normal+narrow-gauge) line #1 {WHITE}
+STR_MENU_dAAN									:Dual gauge (normal+narrow-gauge) line #1 construction {WHITE}
+
+STR_NAME_dAAN_MINI								:Dual gauge (normal+narrow-gauge) line 
+STR_TOOLBAR_dAAN_MINI							:Dual gauge (normal+narrow-gauge) line
+STR_MENU_dAAN_MINI								:Dual gauge (normal+narrow-gauge) line construction
+
+STR_NAME_dBAN									:Dual gauge (normal+narrow-gauge) line #2
+STR_TOOLBAR_dBAN								:Dual gauge (normal+narrow-gauge) line #2 {WHITE}
+STR_MENU_dBAN									:Dual gauge (normal+narrow-gauge) line #2 construction {WHITE}
+
+STR_NAME_dBAE									:Dual gauge (normal+narrow-gauge) line #2 {LTBLUE}(electrified)
+STR_TOOLBAR_dBAE								:Dual gauge (normal+narrow-gauge) line #2 {LTBLUE}(electrified) {WHITE}
+STR_MENU_dBAE									:Dual gauge (normal+narrow-gauge) line #2 construction {LTBLUE}(electrified) {WHITE}
+
+STR_NAME_dAAE_MINI								:Dual gauge (normal+narrow-gauge) {LTBLUE}(electrified)
+STR_TOOLBAR_dAAE_MINI							:Dual gauge (normal+narrow-gauge) {LTBLUE}(electrified)
+STR_MENU_dAAE_MINI								:Dual gauge (normal+narrow-gauge) construction {LTBLUE}(electrified)
+
+STR_NAME_NAAN									:Narrow-gauge line
+STR_TOOLBAR_NAAN								:Narrow-gauge line {WHITE}
+STR_MENU_NAAN									:Narrow-gauge line construction {WHITE}
+
+STR_NAME_NAAE									:Narrow-gauge line {LTBLUE}(electrified)
+STR_TOOLBAR_NAAE								:Narrow-gauge line {LTBLUE}(electrified) {WHITE}
+STR_MENU_NAAE									:Narrow-gauge line construction {LTBLUE}(electrified) {WHITE}
+
+STR_NAME_NBAN									:Modern narrow-gauge line
+STR_TOOLBAR_NBAN								:Modern narrow-gauge line {WHITE}
+STR_MENU_NBAN									:Modern narrow-gauge line construction {WHITE}
+
+STR_NAME_NBAE									:Modern narrow-gauge line {LTBLUE}(electrified)
+STR_TOOLBAR_NBAE								:Modern narrow-gauge line {LTBLUE}(electrified) {WHITE}
+STR_MENU_NBAE									:Modern narrow-gauge line construction {LTBLUE}(electrified) {WHITE}
+
+STR_NAME_NCAN									:Accelerated narrow-gauge line
+STR_TOOLBAR_NCAN								:Accelerated narrow-gauge line {WHITE}
+STR_MENU_NCAN									:Accelerated narrow-gauge line construction {WHITE}
+
+STR_NAME_NCAE									:Accelerated narrow-gauge line {LTBLUE}(electrified)
+STR_TOOLBAR_NCAE								:Accelerated narrow-gauge line {LTBLUE}(electrified) {WHITE}
+STR_MENU_NCAE									:Accelerated narrow-gauge line construction {LTBLUE}(electrified) {WHITE}
+
+STR_NAME_NDAE									:High-speed narrow-gauge line {LTBLUE}(electrified)
+STR_TOOLBAR_NDAE								:High-speed narrow-gauge line {LTBLUE}(electrified) {WHITE}
+STR_MENU_NDAE									:High-speed narrow-gauge line construction {LTBLUE}(electrified) {WHITE}
+
+STR_NAME_NUAE									:Urban narrow-gauge line {LTBLUE}(electrified)
+STR_TOOLBAR_NUAE								:Urban narrow-gauge line {LTBLUE}(electrified) {WHITE}
+STR_MENU_NUAE									:Urban narrow-gauge line construction {LTBLUE}(electrified) {WHITE}
+
+STR_NAME_NAA3									:Narrow-gauge line {GREEN}(3rd rail powered)
+STR_TOOLBAR_NAA3								:Narrow-gauge line {GREEN}(3rd rail powered) {WHITE}
+STR_MENU_NAA3									:Narrow-gauge line construction {GREEN}(3rd rail powered) {WHITE}
+
+STR_NAME_NBA3									:Modern narrow-gauge line {GREEN}(3rd rail powered)
+STR_TOOLBAR_NBA3								:Modern narrow-gauge line {GREEN}(3rd rail powered) {WHITE}
+STR_MENU_NBA3									:Modern narrow-gauge line construction {GREEN}(3rd rail powered) {WHITE}
+
+STR_NAME_MONO									:Monorail
+STR_TOOLBAR_MONO								:Monorail
+STR_MENU_MONO									:Monorail construction
+
+STR_NAME_MGLV									:Maglev
+STR_TOOLBAR_MGLV								:Maglev
+STR_MENU_MGLV									:Maglev construction
